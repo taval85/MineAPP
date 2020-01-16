@@ -119,7 +119,7 @@
 .page.cover .f-cover-story{
 	color: rgba(175, 13, 224, 0.9);
 	font-weight: 600;
-	 font-size: 1.5rem;
+	 /* font-size: 1.5rem; */
 	line-height: 46px;
 	position: absolute;
 	bottom: 60px;
@@ -470,10 +470,13 @@ a.f-ref{
 @media only screen and (max-width: 320px) {
 
 	.f-cover-flip { 
-	   font-size:calc(16px + 0.4vw);; 
+	   font-size:calc(16px + 0.4vw);
 	}
 	h1 {
         font-size: 1.2rem;
-    }
+	}
+	.page.cover .f-cover-story {
+		font-size:calc(16px + 0.4vw);
+	}
  
  }
