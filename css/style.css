@@ -64,7 +64,7 @@
 }
 .page .content .inner{
 	padding: 50px 15px 10px;
-	height: auto;
+	height: 100%;
 }
 .page h1{
 	text-align: center;
@@ -72,7 +72,6 @@
 .page.cover .front .content,
 .page.cover-back .back .content{
 	width: 100% !important;
-	height: 100% !important;
 }
 .page.cover .front .content:after,
 .page.cover-back .back .content:after{
@@ -167,7 +166,7 @@ a.f-ref{
 .logo{
 	width: 180px;
 	height: 180px;
-	position: relative;
+	position: absolute;
 	top: 20px;
 	left: 30px;
 	line-height: 428px;
