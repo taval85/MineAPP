@@ -97,7 +97,7 @@
 	background-size: cover;
 }
 .page.cover-back .back .content{
-	background: #B0D5FF;
+	background: rgb(248, 176, 255);
 }
 .page.cover h1{
 	color: rgba(240, 148, 212, 0.9);
@@ -469,7 +469,7 @@ a.f-ref{
 
 @media only screen and (max-width: 320px) {
 
-	body { 
+	.f-cover-flip { 
 	   font-size: 2em; 
 	}
 	h1 {
