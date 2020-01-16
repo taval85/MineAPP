@@ -569,12 +569,12 @@
 			this.$flipPages.find( '.box' ).on( 'click.flips', function( event ) {
 				
 				var $box 			= $(this),
-					$boxClose		= $( '<span class="box-close">close</span>' ),
+					$boxClose		= $( '<span class="box-close">Cerrar</span>' ),
 					transitionProp	= {
 						speed			: 450,
 						timingfunction	: 'linear'
 					},
-					$overlay		= $( '<div class="overlay">close</div>' ).css( {
+					$overlay		= $( '<div class="overlay">Cerrar</div>' ).css( {
 						'z-index'				: 9998,
 						'-webkit-transition' 	: 'opacity ' + transitionProp.speed + 'ms ' + transitionProp.timingfunction,
 						'-moz-transition' 		: 'opacity ' + transitionProp.speed + 'ms ' + transitionProp.timingfunction
